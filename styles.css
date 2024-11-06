@@ -1,4 +1,7 @@
- /* General styling */.  body {
+
+
+ /* General styling */
+body {
     font-family: Arial, sans-serif;
     text-align: center; /* Center-align body content by default */
 }
@@ -24,8 +27,9 @@
 }
 
 /* table -2 */
-.table-2 td{
-	widht: 100%
+.table-2 ,tr ,td{
+	widht: 100%;
+	border:2px solid ;
 }
 
 
@@ -51,5 +55,4 @@
 #t12,22,32{
 	text-align:center;
 }
-
 
