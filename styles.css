@@ -10,8 +10,8 @@ body {
 
 /* Styling for tables */
 .middle {
-    width: 80%; /* Set table width to 80% of the page */
-    margin: 20px auto;
+    width: 100%; /* Set table width to 80% of the page */
+    margin-bottom: 50px;
     border-collapse: collapse; /* Merges borders */
     border-spacing: 1px; /* Adds space between cells */
     border: 1px solid black;
@@ -19,11 +19,8 @@ body {
 
 .middle td {
     border: 1px solid black; /* Cell border */
-    padding: 10px; /* Cell padding */
-    text-align: center; /* Center-align text in cells */
+    padding: 5px; /* Cell padding */
 }
-
-
 
 /* Special styling for Table 3 */
 .green {
@@ -35,13 +32,6 @@ body {
     background-color: blue;
     color: white;
 }
-
-
-
-
-
-
-
 
 #t11 ,#t21, #t31{
 	text-align:left;
