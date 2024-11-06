@@ -1,4 +1,4 @@
-body {
+ /* General styling */.  body {
     font-family: Arial, sans-serif;
     text-align: center; /* Center-align body content by default */
 }
@@ -20,7 +20,16 @@ body {
 .middle td {
     border: 1px solid black; /* Cell border */
     padding: 5px; /* Cell padding */
+	height:10px;
 }
+
+/* table -2 */
+.table-2 td{
+	widht: 100%
+}
+
+
+
 
 /* Special styling for Table 3 */
 .green {
@@ -39,7 +48,8 @@ body {
 .right{
 	text-align:right;
 }
-
 #t12,22,32{
 	text-align:center;
 }
+
+
