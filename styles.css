@@ -1,5 +1,41 @@
-/*  your css code here. If applicable */
-.middle,tr,td {
-	border:1px solid black;
-	width:100%;
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center-align body content by default */
+}
+
+/* Center-align heading */
+.center-align {
+    text-align: center;
+}
+
+/* Styling for tables */
+.middle {
+    width: 80%; /* Set table width to 80% of the page */
+    margin: 20px auto;
+    border-collapse: collapse; /* Merges borders */
+    border-spacing: 1px; /* Adds space between cells */
+    border: 1px solid black;
+}
+
+.middle td {
+    border: 1px solid black; /* Cell border */
+    padding: 10px; /* Cell padding */
+    text-align: center; /* Center-align text in cells */
+}
+
+/* Special styling for Table 1 */
+#table-1 .center td, #table-1 .right {
+    text-align: center;
+}
+
+/* Special styling for Table 3 */
+.green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
 }
